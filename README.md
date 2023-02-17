@@ -1,4 +1,4 @@
-## DESAFIO 01 - 17/FEV
+## DESAFIO 01 - 17/FEV (Dotnet 6)
 ### Objetivo
 Escreva um programa que conte a quantidade de palavras e caracteres que um determinado texto, escrito no Console, contém.
 
