@@ -16,4 +16,6 @@ foreach (var charac in texto)
 }
 
 var palavras = novoTexto.Split(" ");
-Console.WriteLine(texto.Length + " caracteres, " + palavras.Length + " palavras");
+var pluralPalavra = palavras.Length > 1 ? "s" : String.Empty;
+var pluralTexto = texto.Length > 1 ? "s" : String.Empty;
+Console.WriteLine(texto.Length + " caractere" + pluralTexto + ", " + palavras.Length + " palavra" + pluralPalavra);
